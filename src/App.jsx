@@ -10,7 +10,7 @@ function App() {
     <main>
       <Router>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="vitereact/" element={<Home />} />
           <Route path='/view/:id' element={<View/>}></Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
