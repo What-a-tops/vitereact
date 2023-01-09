@@ -1,6 +1,6 @@
 import React, {useEffect, useState, useReducer} from 'react'
-import FormsField from './FormsFields'
-import TablesData from './TablesData'
+import FormsField from '../Components/FormsFields'
+import TablesData from '../Components/TablesData'
 import Swal from 'sweetalert2'
 
 const url = import.meta.env.VITE_REACT_APP_API

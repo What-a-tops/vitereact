@@ -34,7 +34,7 @@ const Details = () => {
                     }
                     <button
                         className='btn btn-outline-danger mt-2'
-                        onClick={() => navigate("/")}
+                        onClick={() => navigate("/vitereact")}
                     >Go Back
                     </button>
                 </div>

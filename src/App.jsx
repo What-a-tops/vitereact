@@ -1,7 +1,7 @@
 import React from 'react'
-import Home from './Components/Home'
-import View from './Components/View'
-import PageNotFound from './Components/PageNotFound'
+import Home from './Pages/Home'
+import View from './Pages/View'
+import PageNotFound from './Pages/PageNotFound'
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
@@ -10,7 +10,7 @@ function App() {
     <main>
       <Router>
         <Routes>
-          <Route path="vitereact/" element={<Home />} />
+          <Route path="vitereact" element={<Home />} />
           <Route path='/view/:id' element={<View/>}></Route>
           <Route path="*" element={<PageNotFound />} />
         </Routes>
